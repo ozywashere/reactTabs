@@ -14,7 +14,7 @@ function TabContent({ item }) {
     setLikeCount(likeCount + 1);
   };
   return (
-    <div className='max-w-xl border p-8 my-8 rounded shadow-lg '>
+    <div className='max-w-2xl border p-8 my-8 rounded shadow-lg w-full '>
       <h2 className='text-xl font-bold mb-2'>{item.summary}</h2>
       <p className='text-gray-700 text-base leading-relaxed'>
         {showDetails ? item.details : item.details.substring(0, 100) + '...'}
