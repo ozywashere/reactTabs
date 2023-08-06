@@ -29,7 +29,7 @@ const content = [
 
 function App() {
   return (
-    <div className='max-w-screen-xl mx-auto'>
+    <div className='max-w-screen-xl mx-auto py-8'>
       <Tabbed content={content} />
     </div>
   );
